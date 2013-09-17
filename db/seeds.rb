@@ -16,3 +16,15 @@ Product.create(title: 'Programming Ruby 1.9',
      </p>},
   image_url: 'ruby.jpg',
   price: 49.95)
+
+Product.create(title: 'Rails is Awesome',
+  description:
+    %{<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>},
+  image_url: 'ruby.jpg',
+  price: 58.65)
+  
+Product.create(title: 'Ruby on Rails: An Introduction',
+  description:
+    %{<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>},
+  image_url: 'ruby.jpg',
+  price: 19.99)
